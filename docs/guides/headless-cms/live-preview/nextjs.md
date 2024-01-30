@@ -45,7 +45,7 @@ Make sure to replace `MY_SECRET_TOKEN` with the secret you want in your Next.js 
 
 ## Create Post Pages
 
-We'll need a basic page to display all the posts. For this, create the file `pages.tsx` under `app/posts/[id]` with the
+We'll need a basic page to display all the posts. For this, create the file `page.tsx` under `app/posts/[id]` with the
 following content:
 
 ```tsx
@@ -137,7 +137,7 @@ Next.js documentation
 
 ## Fetch Post Data with Draft Mode Enabled
 
-To enable draft mode while fetching post data, modify the `pages.tsx` file located in the `app/posts/[id]` directory
+To enable draft mode while fetching post data, modify the `page.tsx` file located in the `app/posts/[id]` directory
 with the following code:
 
 ```tsx
